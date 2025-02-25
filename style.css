@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cap {
+    width: 50px;
+    height: 25px;
+}
+
+.sleeve {
+    width: 100px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 5px solid black;
+}
+
+
+.red {
+    background: linear-gradient(#7a4a0e, #f53e71, #a21b1b);
+    box-shadow: 0 0 10px rgba(83, 14, 14, 0.8);
+}
+
+.green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 10px #3B7E20CC;
+}
+
+.blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 10px blue;
+}
+
+.yellow {
+    background: linear-gradient(#b28c00, #f5e03e, #c5a900);
+    box-shadow: 0 0 10px #d4af37;
+}
